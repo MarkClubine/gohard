@@ -36,38 +36,63 @@
     <a href="about.html">About</a>
   </div>
 
-  <!-- Editorial Hero -->
-  <section class="editorial-hero">
-    <img src="images/editorial/spike-cap-lifestyle.png" alt="GOHARD Editorial">
+  <!-- Editorial Hero — Stage Installation -->
+  <section class="editorial-hero" style="height: 80vh;">
+    <img src="images/editorial/stage-installation.jpeg" alt="GOHARD Stage Installation">
     <div class="editorial-hero__content">
       <h1>The GOHARD Journal</h1>
       <p style="font-size: 1.1rem; opacity: 0.85; margin-bottom: 0;">Stories from the world of going hard.</p>
     </div>
   </section>
 
-  <!-- Editorial Block 1: Street Style -->
+  <!-- Runway — Full bleed side by side -->
+  <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 2px;">
+    <div style="position: relative; overflow: hidden;">
+      <img src="images/editorial/runway.jpeg" alt="GOHARD Runway" style="width: 100%; height: 100%; object-fit: cover; min-height: 600px;">
+      <div style="position: absolute; bottom: 0; left: 0; right: 0; padding: 2rem; background: linear-gradient(transparent, rgba(0,0,0,0.6)); color: white;">
+        <h3 style="font-family: var(--font-heading); font-size: 1.5rem; text-transform: uppercase; letter-spacing: 0.1rem;">Runway SS26</h3>
+        <p style="font-size: 0.85rem; opacity: 0.8; margin: 0;">Paris Fashion Week</p>
+      </div>
+    </div>
+    <div style="position: relative; overflow: hidden;">
+      <img src="images/editorial/runway-leg-wrap.jpeg" alt="GOHARD Runway Detail" style="width: 100%; height: 100%; object-fit: cover; min-height: 600px;">
+      <div style="position: absolute; bottom: 0; left: 0; right: 0; padding: 2rem; background: linear-gradient(transparent, rgba(0,0,0,0.6)); color: white;">
+        <h3 style="font-family: var(--font-heading); font-size: 1.5rem; text-transform: uppercase; letter-spacing: 0.1rem;">Look 14</h3>
+        <p style="font-size: 0.85rem; opacity: 0.8; margin: 0;">Silk bean wrap</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Building Murals — Full bleed side by side -->
+  <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 2px;">
+    <div style="position: relative; overflow: hidden;">
+      <img src="images/editorial/building-mural-bw.jpeg" alt="GOHARD Mural" style="width: 100%; height: 100%; object-fit: cover; min-height: 500px;">
+      <div style="position: absolute; bottom: 0; left: 0; right: 0; padding: 2rem; background: linear-gradient(transparent, rgba(0,0,0,0.6)); color: white;">
+        <h3 style="font-family: var(--font-heading); font-size: 1.5rem; text-transform: uppercase; letter-spacing: 0.1rem;">Mexico City</h3>
+        <p style="font-size: 0.85rem; opacity: 0.8; margin: 0;">Eight stories of going hard</p>
+      </div>
+    </div>
+    <div style="position: relative; overflow: hidden;">
+      <img src="images/editorial/building-mural-gold.jpeg" alt="GOHARD Mural" style="width: 100%; height: 100%; object-fit: cover; min-height: 500px;">
+      <div style="position: absolute; bottom: 0; left: 0; right: 0; padding: 2rem; background: linear-gradient(transparent, rgba(0,0,0,0.6)); color: white;">
+        <h3 style="font-family: var(--font-heading); font-size: 1.5rem; text-transform: uppercase; letter-spacing: 0.1rem;">Dubai</h3>
+        <p style="font-size: 0.85rem; opacity: 0.8; margin: 0;">The bean ascends</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Editorial Block: The Boutique -->
   <section class="editorial-block">
-    <img src="images/editorial/pink-tee-lifestyle.png" alt="Spring 2026 Collection" class="editorial-block__image">
+    <img src="images/editorial/boutique-interior.jpeg" alt="GOHARD Boutique" class="editorial-block__image">
     <div class="editorial-block__text">
-      <h2>Spring 2026: New Season, Same Intensity</h2>
-      <p>The GOHARD Spring 2026 collection draws inspiration from the streets where legends are made. Every thread, every stitch, every rhinestone is placed with the precision of someone who refuses to phone it in.</p>
-      <p>This season introduces softer palettes&mdash;blush pinks, cloud whites&mdash;paired with the aggressive hardware that defines the GOHARD DNA. The result is a contradiction that somehow makes perfect sense: tender brutality, gentle aggression, soft power.</p>
-      <p style="margin-top: 1rem;"><a href="shop.html" class="btn btn--outline">Shop Spring 2026</a></p>
+      <h2>The Boutique</h2>
+      <p>The GOHARD World boutique is a study in contrasts. Parisian wainscoting meets industrial-grade intention. A marble fireplace anchors a room lined with racks of spiked leather and rhinestone-encrusted cotton.</p>
+      <p>Every detail was chosen to answer a single question: What would a store look like if it went as hard as the clothes inside it?</p>
+      <p style="margin-top: 1rem;"><a href="shop.html" class="btn btn--outline">Shop the Collection</a></p>
     </div>
   </section>
 
-  <!-- Editorial Block 2: The Bib -->
-  <section class="editorial-block editorial-block--reverse">
-    <img src="images/editorial/leather-bib-lifestyle.png" alt="The GOHARD Leather Bib" class="editorial-block__image">
-    <div class="editorial-block__text">
-      <h2>The Leather Bib: A Manifesto</h2>
-      <p>Fine dining is an act of commitment. So is wearing a full-grain Italian leather bib embossed with a lifestyle brand logo to a three-star restaurant. The GOHARD Leather Bib is not an accessory. It is a declaration.</p>
-      <p>Handcrafted from the same leather used in luxury automotive interiors, the bib features the signature GOHARD emblem in forest green. It says: I am here to eat, and I am here to go hard while doing it.</p>
-      <p style="margin-top: 1rem;"><a href="shop.html#accessories" class="btn btn--outline">Shop Accessories</a></p>
-    </div>
-  </section>
-
-  <!-- Full Width Image Break -->
+  <!-- Full Width — Lamborghini -->
   <section style="width: 100%; height: 60vh; min-height: 400px; position: relative; overflow: hidden;">
     <img src="images/editorial/gohard-lamborghini.png" alt="GOHARD Lamborghini" style="width: 100%; height: 100%; object-fit: cover;">
     <div style="position: absolute; inset: 0; display: flex; align-items: center; justify-content: center; background: rgba(0,0,0,0.3);">
@@ -75,25 +100,33 @@
     </div>
   </section>
 
-  <!-- Editorial Block 3: The Flagship -->
-  <section class="editorial-block">
-    <img src="images/editorial/flagship-store.png" alt="GOHARD Flagship" class="editorial-block__image">
+  <!-- Editorial Block: Spring 2026 -->
+  <section class="editorial-block editorial-block--reverse">
+    <img src="images/editorial/pink-tee-lifestyle.png" alt="Spring 2026 Collection" class="editorial-block__image">
     <div class="editorial-block__text">
-      <h2>The Flagship: A Temple of Hardness</h2>
-      <p>Located at the intersection of ambition and audacity, the GOHARD World flagship store is a monument to the lifestyle. Clad in blackened concrete and glass, the space was designed by architects who were simply told: "Make it go hard."</p>
-      <p>Inside, visitors encounter the full GOHARD universe&mdash;from rhinestone-encrusted basics to spiked outerwear, all presented in a retail environment that feels less like shopping and more like a pilgrimage.</p>
-      <p style="margin-top: 1rem;"><a href="about.html" class="btn btn--outline">Learn More</a></p>
+      <h2>Spring 2026</h2>
+      <p>This season introduces softer palettes&mdash;blush pinks, cloud whites&mdash;paired with the aggressive hardware that defines the GOHARD DNA. The result is a contradiction that somehow makes perfect sense: tender brutality, gentle aggression, soft power.</p>
+      <p style="margin-top: 1rem;"><a href="shop.html" class="btn btn--outline">Shop Spring 2026</a></p>
     </div>
   </section>
 
-  <!-- Newsletter -->
-  <section class="newsletter">
-    <h2>Stay in Touch</h2>
-    <p>Subscribe to the GOHARD World newsletter for exclusive access to new collections, city guides, and more.</p>
-    <form class="newsletter__form" onsubmit="return false;">
-      <input type="email" class="newsletter__input" placeholder="Email address">
-      <button type="submit" class="newsletter__btn">Subscribe</button>
-    </form>
+  <!-- Editorial Block: The Bib -->
+  <section class="editorial-block">
+    <img src="images/editorial/leather-bib-lifestyle.png" alt="The GOHARD Leather Bib" class="editorial-block__image">
+    <div class="editorial-block__text">
+      <h2>The Leather Bib: A Manifesto</h2>
+      <p>Fine dining is an act of commitment. So is wearing a full-grain Italian leather bib embossed with a lifestyle brand logo to a three-star restaurant. The GOHARD Leather Bib is not an accessory. It is a declaration.</p>
+      <p style="margin-top: 1rem;"><a href="shop.html" class="btn btn--outline">Shop Accessories</a></p>
+    </div>
+  </section>
+
+  <!-- Full Width — Stage Installation reprise -->
+  <section style="width: 100%; height: 50vh; min-height: 350px; position: relative; overflow: hidden;">
+    <img src="images/editorial/flagship-store.png" alt="GOHARD Flagship" style="width: 100%; height: 100%; object-fit: cover;">
+    <div style="position: absolute; inset: 0; display: flex; flex-direction: column; align-items: center; justify-content: center; background: rgba(0,0,0,0.4); text-align: center; padding: 2rem;">
+      <h2 style="color: white; font-family: var(--font-heading); font-size: 2.5rem; text-transform: uppercase; letter-spacing: 0.2rem; margin-bottom: 0.5rem;">The Flagship</h2>
+      <p style="color: white; opacity: 0.8; font-size: 1rem; margin-bottom: 0;">A temple of hardness.</p>
+    </div>
   </section>
 
   <!-- Footer -->
@@ -102,10 +135,6 @@
       <div class="footer__col">
         <h4>Shop</h4>
         <a href="shop.html">All Products</a>
-        <a href="shop.html#tops">Tops</a>
-        <a href="shop.html#headwear">Headwear</a>
-        <a href="shop.html#footwear">Footwear</a>
-        <a href="shop.html#accessories">Accessories</a>
       </div>
       <div class="footer__col">
         <h4>World</h4>

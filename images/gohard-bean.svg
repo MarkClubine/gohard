@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 200" width="400" height="200">
+  <!-- Bean shape with concave top edge matching the actual GOHARD logo -->
+  <path d="M 30,120
+           C 30,170 90,195 160,195
+           C 230,195 290,180 340,170
+           C 390,160 395,120 380,80
+           C 365,40 310,10 250,10
+           C 200,10 220,55 185,65
+           C 150,75 120,40 80,20
+           C 50,5 30,50 30,120 Z"
+        fill="#1a5e2a"/>
+  <!-- GOHARD text - tall condensed letters -->
+  <text x="200" y="140" text-anchor="middle"
+        font-family="'Georgia', 'Times New Roman', serif"
+        font-weight="900"
+        font-size="80"
+        font-stretch="condensed"
+        letter-spacing="6"
+        fill="#ffffff">GOHARD</text>
+</svg>
