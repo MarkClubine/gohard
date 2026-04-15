@@ -148,7 +148,7 @@ p {
 }
 
 .header__logo img {
-  height: 42px;
+  height: 60px;
   width: auto;
   transform: rotate(-12deg);
   transition: transform 0.3s ease;
