@@ -585,6 +585,12 @@ p {
   width: 100%;
   height: 100%;
   object-fit: cover;
+  object-position: center center;
+}
+
+.editorial-hero--zoom-out img {
+  object-fit: contain;
+  background: var(--black);
 }
 
 .editorial-hero__content {
