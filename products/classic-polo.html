@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Classic Polo &mdash; GOHARD World</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../css/style.css">
+  <style>
+    .product-hero { display: grid; grid-template-columns: 1fr 1fr; min-height: 100vh; margin-top: 0; }
+    .product-hero__image { width: 100%; height: 100%; object-fit: cover; min-height: 100vh; }
+    .product-hero__info { display: flex; flex-direction: column; justify-content: center; padding: 4rem 3.5rem; }
+    .product-hero__info h1 { font-family: 'Playfair Display', serif; font-size: 2.8rem; text-transform: uppercase; letter-spacing: 0.1rem; margin-bottom: 0.5rem; font-weight: 400; }
+    .product-hero__price { font-size: 1.2rem; margin-bottom: 2rem; opacity: 0.7; }
+    .product-hero__desc { font-size: 1.05rem; line-height: 1.8; margin-bottom: 2rem; opacity: 0.8; }
+    .product-hero__details { font-size: 0.85rem; line-height: 2; margin-bottom: 2.5rem; opacity: 0.6; text-transform: uppercase; letter-spacing: 0.08rem; }
+    .product-hero__btn { display: inline-block; padding: 16px 40px; background: #000; color: #fff; font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.15rem; cursor: default; text-align: center; max-width: 250px; }
+    .product-related { padding: 4rem 2rem; max-width: 1400px; margin: 0 auto; }
+    .product-related h2 { font-family: 'Playfair Display', serif; font-size: 0.85rem; text-transform: uppercase; letter-spacing: 0.12rem; margin-bottom: 1.5rem; padding-bottom: 0.5rem; border-bottom: 0.5px solid #ebebeb; font-weight: 400; }
+    @media (max-width: 768px) { .product-hero { grid-template-columns: 1fr; } .product-hero__image { min-height: 60vh; } .product-hero__info { padding: 2.5rem 1.5rem; } }
+  </style>
+</head>
+<body>
+
+  <!-- Header -->
+  <header class="header">
+    <div class="header__inner">
+      <a href="../index.html" class="header__logo"><img src="../images/gohardlogo.png" alt="GOHARD"></a>
+      <nav class="header__nav">
+        <a href="../shop.html">Shop</a>
+        <a href="../editorial.html">Editorial</a>
+        <a href="../kitchen.html">Kitchen</a>
+        <a href="../about.html">About</a>
+      </nav>
+      <div class="menu-toggle" id="menuToggle">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </div>
+  </header>
+
+  <!-- Mobile Nav -->
+  <div class="mobile-nav" id="mobileNav">
+    <a href="../shop.html">Shop</a>
+    <a href="../editorial.html">Editorial</a>
+    <a href="../kitchen.html">Kitchen</a>
+    <a href="../about.html">About</a>
+  </div>
+
+  <!-- Product Hero -->
+  <section class="product-hero">
+    <img src="../images/products/classic-polo.png" alt="Classic Polo" class="product-hero__image">
+    <div class="product-hero__info">
+      <h1>Classic Polo</h1>
+      <div class="product-hero__price">$180</div>
+      <p class="product-hero__desc">The polo was invented for sport. We reinvented it for standing completely still at a members-only brunch. Cut from Peruvian pima cotton with a hand-embroidered bean logo so discreet it functions as a wealth whisper, the Classic Polo is for those who understand that true power needs no explanation, only a collar.</p>
+      <div class="product-hero__details">
+        100% pima cotton<br>
+        Embroidered logo<br>
+        Two-button placket<br>
+        Regular fit
+      </div>
+      <div class="product-hero__btn">Sold Out</div>
+    </div>
+  </section>
+
+  <!-- Related Products -->
+  <section class="product-related">
+    <h2>You May Also Like</h2>
+    <div class="product-grid">
+      <a href="../products/rhinestone-crystal-tee.html" class="product-card">
+        <img src="../images/products/rhinestone-crystal-tee.jpg" alt="Rhinestone Crystal Tee" class="product-card__image">
+        <div class="product-card__info">
+          <div class="product-card__name">Rhinestone Crystal Tee</div>
+          <div class="product-card__price">$480</div>
+        </div>
+      </a>
+      <a href="../products/bad-boy-oversized-tee.html" class="product-card">
+        <img src="../images/products/bad-boy-oversized-tee.jpg" alt="Bad Boy Oversized Tee" class="product-card__image">
+        <div class="product-card__info">
+          <div class="product-card__name">Bad Boy Oversized Tee</div>
+          <div class="product-card__price">$280</div>
+        </div>
+      </a>
+      <a href="../products/classic-hoodie.html" class="product-card">
+        <img src="../images/products/classic-hoodie.png" alt="Classic Hoodie" class="product-card__image">
+        <div class="product-card__info">
+          <div class="product-card__name">Classic Hoodie</div>
+          <div class="product-card__price">$320</div>
+        </div>
+      </a>
+      <a href="../products/gohard-socks.html" class="product-card">
+        <img src="../images/products/gohard-socks.jpeg" alt="GOHARD Socks" class="product-card__image">
+        <div class="product-card__info">
+          <div class="product-card__name">GOHARD Socks</div>
+          <div class="product-card__price">$45</div>
+        </div>
+      </a>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer__inner">
+      <div class="footer__col">
+        <h4>Shop</h4>
+        <a href="../shop.html">All Products</a>
+      </div>
+      <div class="footer__col">
+        <h4>World</h4>
+        <a href="../editorial.html">Editorial</a>
+        <a href="../about.html">About</a>
+      </div>
+      <div class="footer__col">
+        <h4>Follow</h4>
+        <a href="#">Instagram</a>
+        <a href="#">TikTok</a>
+      </div>
+    </div>
+    <div class="footer__bottom">
+      <span>&copy; 2026 GOHARD World</span>
+      <span>All Rights Reserved</span>
+    </div>
+  </footer>
+
+  <script src="../js/main.js"></script>
+</body>
+</html>

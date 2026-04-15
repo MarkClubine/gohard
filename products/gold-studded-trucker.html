@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gold Studded Trucker &mdash; GOHARD World</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../css/style.css">
+  <style>
+    .product-hero { display: grid; grid-template-columns: 1fr 1fr; min-height: 100vh; margin-top: 0; }
+    .product-hero__image { width: 100%; height: 100%; object-fit: cover; min-height: 100vh; }
+    .product-hero__info { display: flex; flex-direction: column; justify-content: center; padding: 4rem 3.5rem; }
+    .product-hero__info h1 { font-family: 'Playfair Display', serif; font-size: 2.8rem; text-transform: uppercase; letter-spacing: 0.1rem; margin-bottom: 0.5rem; font-weight: 400; }
+    .product-hero__price { font-size: 1.2rem; margin-bottom: 2rem; opacity: 0.7; }
+    .product-hero__desc { font-size: 1.05rem; line-height: 1.8; margin-bottom: 2rem; opacity: 0.8; }
+    .product-hero__details { font-size: 0.85rem; line-height: 2; margin-bottom: 2.5rem; opacity: 0.6; text-transform: uppercase; letter-spacing: 0.08rem; }
+    .product-hero__btn { display: inline-block; padding: 16px 40px; background: #000; color: #fff; font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.15rem; cursor: default; text-align: center; max-width: 250px; }
+    .product-related { padding: 4rem 2rem; max-width: 1400px; margin: 0 auto; }
+    .product-related h2 { font-family: 'Playfair Display', serif; font-size: 0.85rem; text-transform: uppercase; letter-spacing: 0.12rem; margin-bottom: 1.5rem; padding-bottom: 0.5rem; border-bottom: 0.5px solid #ebebeb; font-weight: 400; }
+    @media (max-width: 768px) { .product-hero { grid-template-columns: 1fr; } .product-hero__image { min-height: 60vh; } .product-hero__info { padding: 2.5rem 1.5rem; } }
+  </style>
+</head>
+<body>
+
+  <!-- Header -->
+  <header class="header">
+    <div class="header__inner">
+      <a href="../index.html" class="header__logo"><img src="../images/gohardlogo.png" alt="GOHARD"></a>
+      <nav class="header__nav">
+        <a href="../shop.html">Shop</a>
+        <a href="../editorial.html">Editorial</a>
+        <a href="../kitchen.html">Kitchen</a>
+        <a href="../about.html">About</a>
+      </nav>
+      <div class="menu-toggle" id="menuToggle">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </div>
+  </header>
+
+  <!-- Mobile Nav -->
+  <div class="mobile-nav" id="mobileNav">
+    <a href="../shop.html">Shop</a>
+    <a href="../editorial.html">Editorial</a>
+    <a href="../kitchen.html">Kitchen</a>
+    <a href="../about.html">About</a>
+  </div>
+
+  <!-- Product Hero -->
+  <section class="product-hero">
+    <img src="../images/products/gold-studded-trucker.png" alt="Gold Studded Trucker" class="product-hero__image">
+    <div class="product-hero__info">
+      <h1>Gold Studded Trucker</h1>
+      <div class="product-hero__price">$220</div>
+      <p class="product-hero__desc">The trucker hat was once a symbol of the American working class. We have liberated it from that burden entirely. Each pyramid stud is individually plated in 18-karat gold and set into Italian leather by hand, transforming a piece of roadside Americana into something that belongs at Art Basel, or at least in the parking lot outside Art Basel.</p>
+      <div class="product-hero__details">
+        Italian leather<br>
+        18k gold-plated brass studs<br>
+        Adjustable strap<br>
+        Embroidered logo
+      </div>
+      <div class="product-hero__btn">Sold Out</div>
+    </div>
+  </section>
+
+  <!-- Related Products -->
+  <section class="product-related">
+    <h2>You May Also Like</h2>
+    <div class="product-grid">
+      <a href="../products/silver-spike-snapback.html" class="product-card">
+        <img src="../images/products/silver-spike-snapback.png" alt="Silver Spike Snapback" class="product-card__image">
+        <div class="product-card__info">
+          <div class="product-card__name">Silver Spike Snapback</div>
+          <div class="product-card__price">$195</div>
+        </div>
+      </a>
+      <a href="../products/moto-helmet.html" class="product-card">
+        <img src="../images/products/moto-helmet.png" alt="Moto Helmet" class="product-card__image">
+        <div class="product-card__info">
+          <div class="product-card__name">Moto Helmet</div>
+          <div class="product-card__price">$750</div>
+        </div>
+      </a>
+      <a href="../products/spiked-ski-goggles.html" class="product-card">
+        <img src="../images/products/spiked-ski-goggles.png" alt="Spiked Ski Goggles" class="product-card__image">
+        <div class="product-card__info">
+          <div class="product-card__name">Spiked Ski Goggles</div>
+          <div class="product-card__price">$385</div>
+        </div>
+      </a>
+      <a href="../products/rhinestone-crystal-tee.html" class="product-card">
+        <img src="../images/products/rhinestone-crystal-tee.jpg" alt="Rhinestone Crystal Tee" class="product-card__image">
+        <div class="product-card__info">
+          <div class="product-card__name">Rhinestone Crystal Tee</div>
+          <div class="product-card__price">$480</div>
+        </div>
+      </a>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer__inner">
+      <div class="footer__col">
+        <h4>Shop</h4>
+        <a href="../shop.html">All Products</a>
+      </div>
+      <div class="footer__col">
+        <h4>World</h4>
+        <a href="../editorial.html">Editorial</a>
+        <a href="../about.html">About</a>
+      </div>
+      <div class="footer__col">
+        <h4>Follow</h4>
+        <a href="#">Instagram</a>
+        <a href="#">TikTok</a>
+      </div>
+    </div>
+    <div class="footer__bottom">
+      <span>&copy; 2026 GOHARD World</span>
+      <span>All Rights Reserved</span>
+    </div>
+  </footer>
+
+  <script src="../js/main.js"></script>
+</body>
+</html>
