@@ -54,6 +54,21 @@
     });
   }
 
+  // Transparent header — add scrolled class after passing hero
+  var header = document.querySelector('.header');
+  if (header) {
+    var scrollThreshold = 100;
+    function onScroll() {
+      if (window.scrollY > scrollThreshold) {
+        header.classList.add('header--scrolled');
+      } else {
+        header.classList.remove('header--scrolled');
+      }
+    }
+    window.addEventListener('scroll', onScroll, { passive: true });
+    onScroll(); // run on load in case page is already scrolled
+  }
+
   // Smooth scroll for anchor links
   document.querySelectorAll('a[href^="#"]').forEach(function (anchor) {
     anchor.addEventListener('click', function (e) {
