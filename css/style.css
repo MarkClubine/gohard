@@ -23,8 +23,8 @@
   --overlay: rgba(0, 0, 0, 0.36);
   --overlay-heavy: rgba(0, 0, 0, 0.85);
 
-  --font-heading: 'Cormorant Garamond', 'Georgia', serif;
-  --font-body: 'EB Garamond', 'Georgia', serif;
+  --font-heading: 'Playfair Display', 'Georgia', serif;
+  --font-body: 'Crimson Text', 'Georgia', serif;
 
   --ls: 0.06rem;
   --ls-wide: 0.12rem;
@@ -281,6 +281,21 @@ p {
   letter-spacing: var(--ls-wide);
   text-transform: uppercase;
   opacity: 0.8;
+}
+
+/* Full-screen hero for homepage */
+.hero--full {
+  height: 100vh;
+  min-height: 100vh;
+  margin-top: 0;
+}
+
+.hero--full .hero__content {
+  position: absolute;
+  bottom: 4rem;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 0;
 }
 
 /* === PRODUCT GRID === */
